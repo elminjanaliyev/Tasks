@@ -1,0 +1,43 @@
+.background{
+    background-image: url("./naruto-uzumaki.webp");
+    width: 20%;
+    height: 50vh;
+    margin: 10% 40%;
+   /* display: flex;*/
+    border-radius: 12px;
+}
+.first-box{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    position: relative;
+    animation-name: yelow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.last-box{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    margin: 10% 40%;
+    position: absolute;
+    bottom: 40px;
+    animation-name: reed;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes yelow{
+    0%   { left:0px; top:0px;}
+  25%   { left:227px; top:0px;}
+  50%   { border-radius: 50%; left:227px; top:280px;}
+  75%   { left:0px; top:280px;}
+  100% { left:0px; top:0px;}
+}
+@keyframes reed{
+  0%   { left:0px; top:0px; }
+  25%   { left: 229px; top:0px;}
+  50%   {  left: 232px; top:280px;}
+  75%   { left:0px; top:280px; }
+  100% { left:0px; top:0px;}
+}
