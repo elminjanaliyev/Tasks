@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(82, 82, 211);
+}
+img{
+    border: 1px solid white;
+    object-fit: cover;
+    width: 257px;
+    height: 148px;
+    
+}
+h1{
+    text-align: center;   
+    color: #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: grid;
+    width: 90%;
+    margin: 50px 90px 90px 290px;
+    grid-template-columns:repeat(3, 257px);
+    grid-template-rows:repeat(3,148px);
+    gap: 1px;
+    padding: 10px;
+}
+.card-2{
+    animation-name: card-1;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes card-1{
+    100% {grid-column: 1;}
+    100% {grid-row: 1;}
+}
+.card-8{
+    animation-name: card-2;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes card-2{
+    50% {grid-column: 2;}
+    100%{grid-row: 1;}
+}
+.card-6{
+    animation-name: card-3;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes card-3{
+    100% {grid-row: 1;}
+    100% {grid-column: 3;}
+}
+.card-7{
+    animation-name: card-4;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes card-4{
+    100%{grid-column: 1; }
+    100%{grid-row: 2;}
+}
+.card-1{
+    animation-name: card-5;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes card-5{
+   100% {grid-column: 2;}
+   100% {grid-row: 2;}
+}
+.card-9{
+    animation-name: card-6;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes card-6{
+    100% {grid-column: 2;}
+    100% {grid-row: 3;}
+}
+.card-4{
+    animation-name: card-7;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes card-7{
+    100% {grid-column: 1;}
+    100% {grid-row: 3;}
+}
+.card-5{
+    animation-name: card-8;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes card-8{
+    100% {grid-column: 3;}
+    100% {grid-row: 3;}
+}
+.card-3{
+    animation-name: card-9;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes card-9{
+   100% {grid-column: 3;}
+   100% {grid-row: 2;}
+}
