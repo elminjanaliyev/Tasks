@@ -1,0 +1,251 @@
+@media (max-width:768px){
+    body{
+        background-color: #d8d8d5;
+        width: 100%;
+}
+}
+@media (max-width:768px) {
+    nav{
+        width: 100%;
+        margin-left: 0;
+        gap: 4px;
+        padding-right: 4px;
+    }
+    nav button{
+        padding: 5px 12px 5px 12px;
+    }
+}
+
+/*Background-Responsive*/
+@media (max-width:768px){
+    .background{
+        height: 300px;
+    }
+    .background p{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+/*Intro-Responsive*/
+@media (max-width:768px){
+    section.intro{
+        flex-wrap: wrap;
+        padding: 80px 80px 80px 60px;
+    }
+    .intro img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .intro h2{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .intro p{
+       font-size: 16px;
+       margin-bottom: 20px;
+    }
+}
+
+/*Card-responsive*/
+@media (max-width:768px){
+    .card-image{
+        margin-top: 40px;
+    }
+    .card h2{
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .card p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .card b{
+        font-size: 35px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .card img{
+        width: 100%;
+    }
+    .card{
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .card-text{
+        border-bottom: 1px solid black;
+    }
+}
+
+/*Responsive-partner*/
+@media (max-width:768px){
+    section.partner{
+        margin-top: 10px;
+    }
+    .partner h3{
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+    .partner-logo{
+       flex-wrap: wrap;
+    }
+    .partner-logo img{
+        margin-bottom: 7px;
+    }
+    .partner svg{
+        margin-left: 40%;
+        margin-bottom: 60px;
+    }
+}
+
+
+    /*Responsive-center-Background*/
+    @media (max-width:768px){
+        .center-background{
+            height: 300px;
+            margin-bottom: 40px;
+        }
+        .center-background h3{
+            font-size: 32px;
+            margin-bottom: 0px;
+        }
+        .center-background p{
+            margin-bottom: 30px;
+        }
+        .center-background button{
+            padding: 20px 25px;
+        }
+        .center-background a{
+            font-size: 30px;
+        }
+    }
+
+     /*Responsive-Main-card*/
+@media (max-width:768px){
+    .main-card{
+       flex-wrap: wrap;
+       margin-top: 70px;
+       gap: 35px;
+       border-bottom: 1px solid rgb(29, 29, 28);
+    }
+    .main-card img{
+       width: 100%;
+       margin-bottom: 5px;
+    }
+    .main-card h2{
+       font-size: 32px;
+       margin-bottom: 15px;
+       line-height: 36px;
+    }
+    .main-card p{
+       font-size: 16px;
+       margin-bottom: 17px;
+       line-height: 20px;
+    }
+}
+
+   /*Last-Background-Responsive*/
+   @media (max-width:768px){
+    .last-background{
+        width: 100%;
+        margin-left: 0px;
+        height: 260px;
+    }
+    .last-background a{
+        padding: 10px 10px;
+        align-self: center;
+    }
+}
+ /*Lorem-Responsive*/
+ @media (max-width:768px){
+    .lorem-text{
+        margin-top: 80px;
+        gap: 20px;
+        padding: 20px 13px 20px 13px;
+    }
+    .text{
+        border-right: 1px solid rgb(223, 221, 224);
+    }
+    .text p{
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+    .text strong{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+/*BLOG-RESPONSIVE*/
+@media (max-width:768px){
+    .blog-heading h3{
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    .blog-heading p{
+        margin-bottom: 50px;
+    }
+    .blog{
+        margin: 0px 5px 80px 15px ;
+        flex-wrap: wrap;
+    }
+ }
+ /*Title-Responsive*/
+@media (max-width:768px){
+    .subtitle h5{
+     font-size: 32px;   
+     line-height: 44px;
+    }
+    .subtitle p{
+        font-size: 16px;
+        margin:12px 0 70px 0 ;
+    }
+}
+ /*Subimg-Responsive*/
+ @media (max-width:768px){
+    .img-card-last{
+        width: 90%;
+    }
+    .sub-img{
+        margin: 90px 0 90px 0;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .img-card-last span{
+        font-size: 30px;
+        line-height: 52px;
+    }
+    .img-card-last p{
+        font-size: 16px;
+        margin: 12px 0 12px;
+    }
+}
+
+  /*List-Responsive*/
+  @media (max-width:768px){
+    section.list{
+        margin-bottom: 90px;
+        gap: 5px;
+    }
+    .list-text form input{
+        padding: 8px 15px 7px 3px;
+    }
+    .list-text svg{
+        margin: 0;
+    }
+}
+
+  /*Footer*/
+@media (max-width:768px){
+    .footer-icon{
+        gap: 5px;
+    }
+    .footer-icon img{
+        border:  none;
+    }
+    .top-icon img{
+        width: 100%;
+    }
+}
