@@ -96,6 +96,9 @@ section.intro{
     border: 1px solid #EFAE35;
     border-radius: 80px;
 }
+.intro button:hover{
+    background: transparent;
+}
 .intro a{
     margin-left: 30px;
     border-bottom: 2px solid rgb(196, 183, 183);
@@ -241,14 +244,12 @@ section.main{
     line-height: 25px;
     padding-bottom: 6px;
     border-bottom: 1px solid aqua;
-}
-
-    /*Last Background*/
+}  /*Last Background*/
 .last-background{
     width: 100%;
     background-image: url("./assets/images/link-background.png");
     background-size: cover;
-    margin: 220px 0px 0px 90px;
+    margin: 220px 0px 0px 0px;
     height: 100vh;
     background-repeat: no-repeat;
     display: flex;

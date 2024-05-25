@@ -233,7 +233,7 @@
         padding: 8px 15px 7px 3px;
     }
     .list-text svg{
-        margin: 0;
+      display: none;
     }
 }
 
