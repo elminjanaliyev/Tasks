@@ -1,0 +1,57 @@
+.d-block{
+    height: 80vh;
+}
+h5{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+button{
+    padding: 8px 16px;
+    background-color: blueviolet;
+    color: #fff;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+}
+.first{
+    display: flex;
+    align-self: center;
+    text-align: start;
+}
+.d-md-block{
+    margin-bottom: 8%;
+}
+.card-group{
+    margin-bottom: 8%;
+}
+.card{
+    border: none;
+    text-align: center;
+}
+.card .first{
+    margin-top: 5%;
+    background-color: blue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.card-title{
+   text-align: start;
+   font-size: 50px;
+   color: #5a5a5a;
+   margin-top: 12%;
+}
+.card-text{
+    font-size: 20px;
+    color: #5a5a5a;
+    text-align: start;
+}
+.cards{
+    border-top: 1px solid #dbd6d6;
+    padding: 8% 3%;
+}
+footer{
+  border-top: 1px solid rgb(206, 211, 211);
+  padding: 9% 3% ;
+}
