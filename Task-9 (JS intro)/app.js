@@ -13,7 +13,7 @@ let lastName = " Canəliyev";
 alert("Mənim Adım: " + (firstName + lastName) + " Tanışlıgımza Şad oldum")
 //Task-9
 let fullName = "John Doe";
-let number = fullName.length
+let number = fullName.length;
 console.log("Həriflərin sayı: " + number);
 //Task-10
 let uName = "Elmin Caneliyev"
@@ -24,8 +24,8 @@ console.log("Ad Soyad: " + fName + lName )
 let userName = prompt("Salam, [ad]!")
 alert(userName)
 //task12
-let firstNum  = prompt("birinci ededi daxil edin")
-let secondNum = prompt("ikinci ededi daxil edin")
+let firstNum  = +prompt("birinci ededi daxil edin")
+let secondNum = +prompt("ikinci ededi daxil edin")
 let toplama = firstNum + secondNum
 console.log("Toplama:" + toplama)
 let vurma = firstNum * secondNum
