@@ -56,13 +56,13 @@ function firstIndexText(texts) {
   console.log(`"." işarəsinin birinci indexsi : ${firstIndexText(texts)} dir`);
   
   //Task-8
-/*let loremText = prompt("metin daxil edin")
+ let loremText = prompt("metin daxil edin")
 if (loremText.includes('1') || loremText.includes('2') || loremText.includes('3') || loremText.includes('4') || loremText.includes('5') || loremText.includes('6') || loremText.includes('7') || loremText.includes('8') || loremText.includes('9')) {
     console.log("Daxil etdiyiniz metinde reqem var.");
 }else{
     console.log("Daxil etdiyiniz Metinde reqem yoxdur.");
 }
-*/
+
 //Task-9
 function repeatedSymbolCounter(string, char) {
     let deyer = 0
