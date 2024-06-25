@@ -15,12 +15,9 @@ console.log(getNumberFromString("hell5o wor6ld"));
 
 //Task-4
 function removeAll(str) {
-    let setirsonu = str.endsWith('!');
     let deleted = str.replace(/!/g, '');
-    if (!setirsonu) {
-        deleted += '!';
-    }
-    return deleted;
+    let sonDeyer =   deleted += '!'
+    return sonDeyer
 }
 console.log(removeAll("Hi!")); 
 console.log(removeAll("Hi!!!")); 
@@ -30,11 +27,11 @@ console.log(removeAll("Hi! Hi!"));
 console.log(removeAll("Hi")); 
 
 //Task-5
-function getNumberFromString(reqem) {
-    let numStr = reqem.replace(/\d/g, '');
-    return numStr;
+function getNumberString(reqem) {
+    let numSetir = reqem.replace(/\d/g, '');
+    return numSetir;
 }
-console.log(getNumberFromString("This looks5 grea8t")); 
+console.log(getNumberString("This looks5 grea8t")); 
 
 //Task-6
 let reqemSayi = "2346"
