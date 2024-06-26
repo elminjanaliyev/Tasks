@@ -20,9 +20,9 @@ console.log(`Rəqəmlər ikiqat artırılıb:`, newNumber2);
 
 for (let i = 0; i < originalNumber.length; i++) {
   if (originalNumber[i] !== newNumber[i]) {
-    console.log("Orginal massiv dəyişib?: Dəyişib");
+    console.log("Orginal massiv  dəyişib");
   }else{
-    console.log("Orginal massiv deyisib?: Dəyişməyib" );
+    console.log("Orginal massiv dəyişməyib" );
   }
 }
 //Task-4
