@@ -1,7 +1,7 @@
 //Task-1
 let groupName = ["Murad", "Kamran", "Ayxan"]
 groupName.push("Emin")
-groupName.pop()
+groupName.shift()
 console.log(groupName);
 
 //Task-2
