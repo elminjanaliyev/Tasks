@@ -35,7 +35,7 @@ for (let i = 0; i < arr.length; i++) {
 
 //Task-5
 let userNumber = prompt("Vergül ilə ayrılmış 5 ədəd daxil edin")
-let userNumbers  = userNumber.replaceAll(",","")                          
+let userNumbers  = userNumber.split(",")                          
 let userMinNumber = userNumbers[0]
 for (let index = 0; index < userNumbers.length; index++) {
     if (userNumbers[index] < userMinNumber) {
