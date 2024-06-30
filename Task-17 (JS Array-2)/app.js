@@ -88,10 +88,10 @@ if (userName.length === 0) {
 }
 
 //Task-9
-function addTax(edv) {
-    let edvDeyer = 0.25
-    let newArray = edv.map(a =>{
-     let newArrays = a += (edvDeyer)
+function addTax() {
+    let edvDeyer = 0.2
+    let newArray = edvNumber.map(a =>{
+     let newArrays = a * (1+ edvDeyer)
      return newArrays
     })
     return newArray
