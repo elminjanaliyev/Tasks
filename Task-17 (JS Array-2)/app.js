@@ -43,6 +43,30 @@ let numbers2 =[3, 2, 4, 1]
 console.log(menfiEdedler(numbers1));
 console.log(menfiEdedler(numbers2));
 
+//Task-5
+const names = ["Michael", "Trevor", "Franklin", "Lamar", "Jimmy"];
+names.forEach(printWithDashes);
+names.forEach(printWithHearts);
+names.forEach(printWithIndex);
+
+function printWithDashes(value) {
+    console.log(`
+     -------------
+     ${value}
+     -------------   
+        `);
+}
+function printWithHearts(value) {
+    console.log(`
+    <3<3<3<3 ${value} <3<3<3<3
+        `);
+}
+function printWithIndex(value,index) {
+    console.log(`
+       ${index} - ${value}
+        `);
+}
+
 //Task-6
 function kebabToUpper(kebabUpper = "first-user") {
     let uperCase = kebabUpper.toUpperCase().replace("-", "_")
@@ -92,9 +116,48 @@ function addTax() {
     let edvDeyer = 0.2
     let newArray = edvNumber.map(a =>{
      let newArrays = a * (1+ edvDeyer)
-     return newArrays
+     return newArrays.toFixed(2)
     })
     return newArray
 }
 let edvNumber = [12.99, 24.95, 9.99, 34.50, 19.99, 42.75, 8.49, 15.00, 28.75, 10.99];
 console.log(addTax(edvNumber));
+
+//Task-10
+let salary = [
+    [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60],
+    [75, 75, 75, 75, 75, 75, 70, 77, 75, 75, 70, 75],
+    [150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 180],
+    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
+    [80, 80, 80, 80, 80, 80, 80, 105, 105, 105, 105, 105],
+    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
+    [80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 120],
+    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65],
+    [80, 80, 80, 80, 80, 80, 80, 90, 90, 90, 90, 90],
+    [75, 75, 75, 75, 75, 75, 75, 75, 75, 75, 70, 75],
+  ];
+
+  function getAnnualSalaryForEmployees() {
+    const result = salary.map((value) => {
+      let employeeYearSalary = 0;
+      value.forEach((value) => (employeeYearSalary += value));
+      return employeeYearSalary;
+    });
+  
+    return result;
+  }
+  console.log(`Hər ayın maaş cəmi`,getAnnualSalaryForEmployees());
+
+  function getMonthlySalary(salaryArray, monthNumber) {
+      let newSalary = salaryArray.map((newArray) =>{
+        return newArray[monthNumber]
+      } );
+      return newSalary; 
+  }
+  console.log(`Aylara görə maaşlar `,getMonthlySalary(salary, 2));
+
+  
+
+  
+  
+  
