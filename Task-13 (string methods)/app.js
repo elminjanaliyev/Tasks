@@ -1,8 +1,8 @@
 //Task-1
 let text = " John Doe"; // 7
 let text1 = "A beautiful game"; // 14
-console.log(text.replace(/\s+/g, '').length);
-console.log(text1.replace(/\s+/g, '').length);
+console.log(text.replaceAll(" ", '').length);
+console.log(text1.replaceAll(" ", '').length);
 
 //Task-2
 let firsttName = prompt("Tam adinizi daxil edin")
