@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+table{
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 90%;
+}
+.first-table{
+    background-color: blueviolet;
+    color: white;
+}
+th{ 
+    border-collapse: collapse;
+    border:  1px solid black;
+    margin-top: 0px;
+}
+thead{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+td{ 
+    border-collapse: collapse;
+    border:  1px solid black;
+}
