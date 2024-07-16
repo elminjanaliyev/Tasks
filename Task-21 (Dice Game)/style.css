@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    background-image: url("./dice/wp2621841.jpg");
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding: 0px 0px 0px 25px;
+    border: 1px solid #a5cfeb;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .dice {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    margin: 30px ;
+    background-size: cover;
+    border: 1px;
+    border-radius: 12px;
+  }
+  
+  h1{
+    font-size: 78px;
+    padding: 0px 0px 2px 20px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+  }
+  #btn{
+    padding: 20px 64px;
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    border-radius: 8px;
+    font-size: 18px;
+    margin: 10px 0px 1px 0px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 200;
+    color: #dee3e9;
+  }
+  #btn2{
+    padding: 15px 45px;
+    background-color: rgba(128, 74, 49, 0.842);
+    border: 2px solid rgba(128, 74, 49, 0.842);
+    border-radius: 8px;
+    font-size: 18px;
+    margin: 10px 0px 15px 0px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 200;
+    color: #dee3e9;
+  }
+  #btn:hover{
+    background: rgba(17, 17, 17, 0.4);
+    backdrop-filter: blur(10px);
+  }
+  #btn2:hover{
+    background: rgba(17, 17, 17, 0.4);
+    backdrop-filter: blur(10px);
+  }
+  .plays{
+    display: flex;
+    gap: 70px;
+  }
+  span{
+    font-size: 24px;
+  }
+  #win{
+    margin-bottom: 10px;
+    font-size: 32px;
+    transition: 1s;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+  }
+  #sound{
+    visibility: hidden;
+    position: absolute;
+  }
